@@ -19,5 +19,17 @@
   "homepage": "https://github.com/yass18-ops/Mother-Comfy#readme",
   "dependencies": {
     "@vercel/speed-insights": "^2.0.0"
+  "description": "Mother's Comfy - International Confinement Care Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "lint": "echo 'Linting HTML...' && echo 'No linter configured for static HTML'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": ["confinement", "postpartum", "care"],
+  "author": "Mother's Comfy",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
