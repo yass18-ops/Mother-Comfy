@@ -7,8 +7,52 @@
   <meta name="description" content="Thoughtful 30-day in-home postpartum care for mothers and newborns. Experienced, health-screened confinement ladies providing traditional healing meals and dedicated infant care.">
   <meta name="keywords" content="confinement lady, confinement care, postpartum care, 30 day confinement package, confinement meals, herbal bath, newborn care, Mother's Comfy">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%2371856A'/><path d='M50 20 C65 20, 75 32, 75 48 C75 66, 56 78, 50 82 C44 78, 25 66, 25 48 C25 32, 35 20, 50 20 Z' fill='%23FAF5EF'/><circle cx='50' cy='42' r='10' fill='%2371856A'/><path d='M38 64 C38 54, 62 54, 62 64 Z' fill='%2371856A'/></svg>">
+    <!-- Favicon & Brand Icons -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="apple-touch-icon" href="assets/images/logo.png">
+
+  <!-- Open Graph / Commercial Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mother’s Comfy">
+  <meta property="og:title" content="Mother’s Comfy | In-Home Confinement Care & Postpartum Support">
+  <meta property="og:description" content="Thoughtful 30-day in-home postpartum care for mothers and newborns. Experienced, health-screened confinement ladies providing traditional healing meals and dedicated infant care.">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mother’s Comfy | In-Home Confinement Care & Postpartum Support">
+  <meta name="twitter:description" content="Thoughtful 30-day in-home postpartum care for mothers and newborns. Experienced, health-screened confinement ladies providing traditional healing meals and dedicated infant care.">
+  <meta name="twitter:image" content="assets/images/logo.png">
+
+  <!-- Schema.org Commercial Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["ChildCare", "LocalBusiness"],
+    "name": "Mother’s Comfy",
+    "legalName": "MOTHER COMFY ENTERPRISE",
+    "description": "Thoughtful 30-day in-home postpartum care for mothers and newborns. Experienced, health-screened confinement ladies providing traditional healing meals and dedicated infant care.",
+    "image": "assets/images/logo.png",
+    "logo": "assets/images/logo.png",
+    "telephone": "+60195066738",
+    "email": "motherscomfy@gmail.com",
+    "priceRange": "RM 9,800 - RM 18,500",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lot 1276 Kg Teras Jernang, Taman Alam Sentosa",
+      "addressLocality": "Bandar Baru Bangi",
+      "addressRegion": "Selangor",
+      "postalCode": "43650",
+      "addressCountry": "MY"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  }
+  </script>
 
   <!-- Google Fonts: Cormorant Garamond & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -100,12 +144,12 @@
   <!-- TOP ANNOUNCEMENT BAR -->
   <!-- ========================================================================= -->
   <div class="bg-brand-forest text-brand-ivory text-xs py-2 px-4 border-b border-brand-forest/20">
-    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-2 text-center sm:text-left">
       <div class="flex items-center gap-2">
         <span class="inline-block w-2 h-2 rounded-full bg-emerald-400"></span>
         <span class="font-medium">Mother Comfy Enterprise</span>
         <span class="text-brand-ivory/50">|</span>
-        <span class="text-brand-ivory/80 font-mono text-[11px]">SSM: 202303327124 (AS0473032-M)</span>
+        <a href="MC2026AS0473032_CERT.pdf.pdf" target="_blank" rel="noopener noreferrer" title="View Official SSM Registration Certificate" class="text-brand-ivory/85 hover:text-brand-beige font-mono text-[11px] inline-flex items-center gap-1.5 transition-colors"><span>SSM: 202303327124 (AS0473032-M)</span><span class="text-emerald-400 font-sans text-[10px] font-semibold bg-emerald-950/70 px-1.5 py-0.5 rounded border border-emerald-500/30">Verified ✓</span></a>
       </div>
 
       <div class="flex items-center gap-4 text-[11px] text-brand-ivory/85">
@@ -129,13 +173,9 @@
       <div class="flex items-center justify-between h-20">
         
         <!-- Brand Logo -->
-        <a href="#hero" class="flex items-center gap-3 group focus:outline-none">
-          <div class="w-10 h-10 rounded-full bg-brand-sageLight flex items-center justify-center text-brand-sage border border-brand-beigeBorder group-hover:bg-brand-sage group-hover:text-brand-ivory transition-all duration-300">
-            <svg class="w-5 h-5 transition-transform group-hover:scale-105" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 34C20 34 11 28 11 19C11 13 15 9 20 9C25 9 29 13 29 19C29 28 20 34 20 34Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M20 9V34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              <circle cx="20" cy="14" r="2.5" fill="currentColor"/>
-            </svg>
+        <a href="#hero" class="flex items-center gap-3 group focus:outline-none" aria-label="Mother's Comfy Home">
+          <div class="w-11 h-11 rounded-full bg-brand-surface p-1 flex items-center justify-center border-2 border-brand-sage/40 shadow-sm group-hover:border-brand-sage transition-all duration-300 shrink-0">
+            <img src="assets/images/logo.png" alt="Mother’s Comfy Logo" class="w-full h-full object-contain rounded-full transition-transform group-hover:scale-105">
           </div>
           <div>
             <div class="font-serif-luxury text-2xl font-bold tracking-tight text-brand-forest leading-none">
@@ -174,6 +214,15 @@
 
     <!-- Mobile Drawer -->
     <div id="mobileNavDrawer" class="hidden md:hidden border-t border-brand-beigeBorder bg-brand-surface px-6 py-5 space-y-3">
+      <div class="flex items-center gap-3 pb-3 border-b border-brand-beigeBorder/80">
+        <div class="w-10 h-10 rounded-full bg-brand-ivory p-1 border border-brand-sage/30 flex items-center justify-center shrink-0">
+          <img src="assets/images/logo.png" alt="Mother's Comfy Logo" class="w-full h-full object-contain rounded-full">
+        </div>
+        <div>
+          <div class="font-serif-luxury text-lg font-bold text-brand-forest leading-none">Mother’s Comfy</div>
+          <div class="text-[9px] uppercase tracking-widest text-brand-sage font-semibold mt-0.5">Confinement Care</div>
+        </div>
+      </div>
       <a href="#about" onclick="toggleMobileNav()" class="block py-2 text-sm font-medium text-brand-forest">About Us</a>
       <a href="#packages" onclick="toggleMobileNav()" class="block py-2 text-sm font-medium text-brand-forest">30-Day Care Packages</a>
       <a href="#journey" onclick="toggleMobileNav()" class="block py-2 text-sm font-medium text-brand-forest">How It Works</a>
@@ -259,11 +308,20 @@
                 <img src="assets/images/hero.jpg" alt="Mother and newborn baby resting comfortably at home with confinement lady care" class="w-full h-auto object-cover aspect-[4/3]" loading="eager">
               </div>
 
+              <!-- Official Hallmark Badge -->
+              <div class="absolute -top-3 right-2 sm:-top-4 sm:-right-4 bg-brand-surface/95 backdrop-blur-md px-3.5 py-2 rounded-2xl shadow-card border border-brand-beigeBorder flex items-center gap-2.5 z-20">
+                <img src="assets/images/logo.png" alt="Mother’s Comfy Official Emblem" class="w-8 h-8 object-contain rounded-full border border-brand-sage/30">
+                <div class="text-left">
+                  <div class="text-[10px] uppercase tracking-wider text-brand-sage font-bold">Official Care Agency</div>
+                  <div class="text-xs font-bold text-brand-forest">Mother’s Comfy</div>
+                </div>
+              </div>
+
               <!-- Floating Reassurance Pill -->
-              <div class="absolute -bottom-5 -left-3 sm:-left-5 bg-brand-surface/95 backdrop-blur-md px-5 py-3 rounded-2xl shadow-card border border-brand-beigeBorder max-w-[270px]">
+              <div class="absolute -bottom-4 left-2 sm:-bottom-5 sm:-left-5 bg-brand-surface/95 backdrop-blur-md px-4 sm:px-5 py-2.5 sm:py-3 rounded-2xl shadow-card border border-brand-beigeBorder max-w-[calc(100%-1rem)] sm:max-w-[270px] z-20">
                 <div class="flex items-center gap-3">
-                  <div class="w-9 h-9 rounded-full bg-brand-sageLight text-brand-sage flex items-center justify-center shrink-0">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                  <div class="w-9 h-9 rounded-full bg-brand-surface p-0.5 border border-brand-sage/40 flex items-center justify-center shrink-0 shadow-sm">
+                    <img src="assets/images/logo.png" alt="Mother’s Comfy Logo" class="w-full h-full object-contain rounded-full">
                   </div>
                   <div>
                     <div class="text-xs font-bold text-brand-forest">Dedicated In-Home Care</div>
@@ -336,6 +394,74 @@
             </p>
           </div>
 
+        </div>
+
+        <!-- Visual Care Showcase: Confinement & Newborn Support -->
+        <div class="mt-14 pt-12 border-t border-brand-beigeBorder/80">
+          <div class="text-center max-w-xl mx-auto mb-8">
+            <span class="text-xs font-semibold uppercase tracking-widest text-brand-sage">Our Daily Care in Action</span>
+            <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-brand-forest mt-1">
+              Dedicated Postpartum &amp; Newborn Support
+            </h3>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <!-- Baby Care -->
+            <div class="group bg-brand-ivory rounded-2xl overflow-hidden border border-brand-beigeBorder shadow-soft hover:shadow-card transition-all duration-300 flex flex-col">
+              <div class="overflow-hidden aspect-[4/3] relative">
+                <img src="assets/images/baby-care.jpg" alt="Experienced confinement lady providing tender newborn care and soothing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                <div class="absolute top-3 left-3 bg-brand-surface/90 backdrop-blur-sm text-brand-forest text-[11px] font-semibold px-2.5 py-1 rounded-full border border-brand-beigeBorder/60">
+                  Newborn Soothing
+                </div>
+              </div>
+              <div class="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <h4 class="font-serif-luxury text-xl font-bold text-brand-forest">24/7 Dedicated Baby Care</h4>
+                  <p class="text-xs text-brand-forest/75 mt-1.5 leading-relaxed">
+                    Attentive infant feeding, gentle sleep settling, and continuous daily tracking so mothers can enjoy uninterrupted rest.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Baby Bath -->
+            <div class="group bg-brand-ivory rounded-2xl overflow-hidden border border-brand-beigeBorder shadow-soft hover:shadow-card transition-all duration-300 flex flex-col">
+              <div class="overflow-hidden aspect-[4/3] relative">
+                <img src="assets/images/baby-bath.jpg" alt="Confinement lady preparing warm traditional infant bath and gentle hygiene care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                <div class="absolute top-3 left-3 bg-brand-surface/90 backdrop-blur-sm text-brand-forest text-[11px] font-semibold px-2.5 py-1 rounded-full border border-brand-beigeBorder/60">
+                  Infant Hygiene
+                </div>
+              </div>
+              <div class="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <h4 class="font-serif-luxury text-xl font-bold text-brand-forest">Gentle Infant Bathing &amp; Hygiene</h4>
+                  <p class="text-xs text-brand-forest/75 mt-1.5 leading-relaxed">
+                    Warm herbal baby baths, umbilical cord care, and daily skin hygiene conducted with experienced, delicate handling.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mother's Rest -->
+            <div class="group bg-brand-ivory rounded-2xl overflow-hidden border border-brand-beigeBorder shadow-soft hover:shadow-card transition-all duration-300 flex flex-col">
+              <div class="overflow-hidden aspect-[4/3] relative">
+                <img src="assets/images/mother-rest.jpg" alt="Postpartum mother resting peacefully during 30-day confinement recovery" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                <div class="absolute top-3 left-3 bg-brand-surface/90 backdrop-blur-sm text-brand-forest text-[11px] font-semibold px-2.5 py-1 rounded-full border border-brand-beigeBorder/60">
+                  Maternal Recovery
+                </div>
+              </div>
+              <div class="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <h4 class="font-serif-luxury text-xl font-bold text-brand-forest">Restorative Maternal Recovery</h4>
+                  <p class="text-xs text-brand-forest/75 mt-1.5 leading-relaxed">
+                    Deep physical replenishment with hot red date teas, postpartum belly binding assistance, and quiet rejuvenation.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
 
       </div>
@@ -502,7 +628,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           
           <!-- Step 1 -->
-          <div class="bg-brand-ivory rounded-2xl p-6 border border-brand-beigeBorder shadow-soft">
+          <div class="bg-brand-ivory rounded-2xl p-6 border border-brand-beigeBorder shadow-soft h-full flex flex-col justify-between">
             <div class="font-serif-luxury text-3xl font-bold text-brand-sage mb-2">01</div>
             <h3 class="font-serif-luxury text-xl font-bold text-brand-forest mb-2">Discovery Call</h3>
             <p class="text-xs sm:text-sm text-brand-forest/75 leading-relaxed">
@@ -511,7 +637,7 @@
           </div>
 
           <!-- Step 2 -->
-          <div class="bg-brand-ivory rounded-2xl p-6 border border-brand-beigeBorder shadow-soft">
+          <div class="bg-brand-ivory rounded-2xl p-6 border border-brand-beigeBorder shadow-soft h-full flex flex-col justify-between">
             <div class="font-serif-luxury text-3xl font-bold text-brand-sage mb-2">02</div>
             <h3 class="font-serif-luxury text-xl font-bold text-brand-forest mb-2">Candidate Selection</h3>
             <p class="text-xs sm:text-sm text-brand-forest/75 leading-relaxed">
@@ -520,7 +646,7 @@
           </div>
 
           <!-- Step 3 -->
-          <div class="bg-brand-ivory rounded-2xl p-6 border border-brand-beigeBorder shadow-soft">
+          <div class="bg-brand-ivory rounded-2xl p-6 border border-brand-beigeBorder shadow-soft h-full flex flex-col justify-between">
             <div class="font-serif-luxury text-3xl font-bold text-brand-sage mb-2">03</div>
             <h3 class="font-serif-luxury text-xl font-bold text-brand-forest mb-2">Date &amp; Travel Sync</h3>
             <p class="text-xs sm:text-sm text-brand-forest/75 leading-relaxed">
@@ -529,7 +655,7 @@
           </div>
 
           <!-- Step 4 -->
-          <div class="bg-brand-ivory rounded-2xl p-6 border border-brand-beigeBorder shadow-soft">
+          <div class="bg-brand-ivory rounded-2xl p-6 border border-brand-beigeBorder shadow-soft h-full flex flex-col justify-between">
             <div class="font-serif-luxury text-3xl font-bold text-brand-sage mb-2">04</div>
             <h3 class="font-serif-luxury text-xl font-bold text-brand-forest mb-2">Home Arrival</h3>
             <p class="text-xs sm:text-sm text-brand-forest/75 leading-relaxed">
@@ -551,6 +677,9 @@
         <div class="bg-brand-surface rounded-3xl p-8 sm:p-12 border-2 border-brand-beige shadow-card">
           
           <div class="text-center max-w-xl mx-auto mb-8">
+            <div class="w-12 h-12 mx-auto mb-3 rounded-full bg-brand-ivory p-1.5 border border-brand-beigeBorder shadow-soft flex items-center justify-center">
+              <img src="assets/images/logo.png" alt="Mother’s Comfy Crest" class="w-full h-full object-contain">
+            </div>
             <span class="text-xs font-semibold uppercase tracking-widest text-brand-sage">Planning Ahead</span>
             <h2 class="font-serif-luxury text-3xl sm:text-4xl font-bold text-brand-forest mt-1.5">
               Estimate Your 30-Day Recovery Timeline
@@ -568,21 +697,21 @@
           <!-- Timeline Output Cards -->
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center sm:text-left">
             
-            <div class="bg-brand-ivory p-5 rounded-2xl border border-brand-beigeBorder">
+            <div class="bg-brand-ivory p-5 rounded-2xl border border-brand-beigeBorder h-full flex flex-col justify-between">
               <div class="text-[11px] font-semibold text-brand-sage uppercase tracking-wider">Recommended Booking</div>
-              <div id="outBooking" class="text-sm font-bold text-brand-forest mt-1 font-serif-luxury text-base">4–6 Months Ahead</div>
+              <div id="outBooking" class="font-serif-luxury text-lg font-bold text-brand-forest mt-1">4–6 Months Ahead</div>
               <div class="text-[11px] text-brand-forest/60 mt-0.5">Initial call &amp; candidate reservation.</div>
             </div>
 
-            <div class="bg-brand-ivory p-5 rounded-2xl border border-brand-beigeBorder">
+            <div class="bg-brand-ivory p-5 rounded-2xl border border-brand-beigeBorder h-full flex flex-col justify-between">
               <div class="text-[11px] font-semibold text-brand-sage uppercase tracking-wider">Health Screening</div>
-              <div id="outMedical" class="text-sm font-bold text-brand-forest mt-1 font-serif-luxury text-base">~6 Weeks Before EDD</div>
+              <div id="outMedical" class="font-serif-luxury text-lg font-bold text-brand-forest mt-1">~6 Weeks Before EDD</div>
               <div class="text-[11px] text-brand-forest/60 mt-0.5">Final health check &amp; travel alignment.</div>
             </div>
 
-            <div class="bg-brand-ivory p-5 rounded-2xl border border-brand-beigeBorder">
+            <div class="bg-brand-ivory p-5 rounded-2xl border border-brand-beigeBorder h-full flex flex-col justify-between">
               <div class="text-[11px] font-semibold text-brand-sage uppercase tracking-wider">30-Day Confinement Window</div>
-              <div id="outCare" class="text-sm font-bold text-brand-forest mt-1 font-serif-luxury text-base">Full Month Post-Birth</div>
+              <div id="outCare" class="font-serif-luxury text-lg font-bold text-brand-forest mt-1">Full Month Post-Birth</div>
               <div class="text-[11px] text-brand-forest/60 mt-0.5">Complete traditional recovery.</div>
             </div>
 
@@ -708,14 +837,14 @@
                 <label for="cName" class="block text-xs font-semibold uppercase tracking-wider text-brand-forest mb-1.5">
                   Full Name <span class="text-rose-600">*</span>
                 </label>
-                <input type="text" id="cName" required placeholder="e.g. Sarah Tan" class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-sm shadow-sm transition-all">
+                <input type="text" id="cName" required placeholder="e.g. Sarah Tan" class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-base sm:text-sm shadow-sm transition-all">
               </div>
 
               <div>
                 <label for="cEmail" class="block text-xs font-semibold uppercase tracking-wider text-brand-forest mb-1.5">
                   Email Address <span class="text-rose-600">*</span>
                 </label>
-                <input type="email" id="cEmail" required placeholder="e.g. sarah@example.com" class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-sm shadow-sm transition-all">
+                <input type="email" id="cEmail" required placeholder="e.g. sarah@example.com" class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-base sm:text-sm shadow-sm transition-all">
               </div>
             </div>
 
@@ -725,14 +854,14 @@
                 <label for="cPhone" class="block text-xs font-semibold uppercase tracking-wider text-brand-forest mb-1.5">
                   Phone (with Country Code) <span class="text-rose-600">*</span>
                 </label>
-                <input type="tel" id="cPhone" required placeholder="e.g. +60 12-345 6789" class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-sm shadow-sm transition-all">
+                <input type="tel" id="cPhone" required placeholder="e.g. +60 12-345 6789" class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-base sm:text-sm shadow-sm transition-all">
               </div>
 
               <div>
                 <label for="cLocation" class="block text-xs font-semibold uppercase tracking-wider text-brand-forest mb-1.5">
                   Location (City, Country) <span class="text-rose-600">*</span>
                 </label>
-                <input type="text" id="cLocation" required placeholder="e.g. Kuala Lumpur, Malaysia" class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-sm shadow-sm transition-all">
+                <input type="text" id="cLocation" required placeholder="e.g. Kuala Lumpur, Malaysia" class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-base sm:text-sm shadow-sm transition-all">
               </div>
             </div>
 
@@ -742,14 +871,14 @@
                 <label for="cEdd" class="block text-xs font-semibold uppercase tracking-wider text-brand-forest mb-1.5">
                   Estimated Due Date (EDD) <span class="text-rose-600">*</span>
                 </label>
-                <input type="date" id="cEdd" required class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-sm shadow-sm transition-all">
+                <input type="date" id="cEdd" required class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-base sm:text-sm shadow-sm transition-all">
               </div>
 
               <div>
                 <label for="cPackage" class="block text-xs font-semibold uppercase tracking-wider text-brand-forest mb-1.5">
                   Interested Package <span class="text-rose-600">*</span>
                 </label>
-                <select id="cPackage" required class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-sm shadow-sm transition-all">
+                <select id="cPackage" required class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-base sm:text-sm shadow-sm transition-all">
                   <option value="30-Day Confinement Care">30-Day Confinement Care</option>
                   <option value="60-Day Extended Care">60-Day Extended Care</option>
                   <option value="Custom Duration">Custom Duration / Enquire</option>
@@ -762,7 +891,7 @@
               <label for="cNotes" class="block text-xs font-semibold uppercase tracking-wider text-brand-forest mb-1.5">
                 Dietary or Special Requests <span class="text-brand-forest/50 font-normal">(Optional)</span>
               </label>
-              <textarea id="cNotes" rows="2" placeholder="Dietary restrictions (halal, vegetarian), expecting twins, or specific recovery wishes..." class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-sm shadow-sm transition-all"></textarea>
+              <textarea id="cNotes" rows="2" placeholder="Dietary restrictions (halal, vegetarian), expecting twins, or specific recovery wishes..." class="w-full bg-brand-ivory border border-brand-beigeBorder focus:border-brand-sage focus:outline-none rounded-xl px-4 py-3 text-brand-forest text-base sm:text-sm shadow-sm transition-all"></textarea>
             </div>
 
             <!-- Submit Button -->
@@ -780,8 +909,8 @@
 
           <!-- Confirmation Card -->
           <div id="bookingSummaryCard" class="hidden bg-brand-ivory rounded-2xl p-6 sm:p-8 border-2 border-brand-sage text-center">
-            <div class="w-12 h-12 bg-brand-sageLight text-brand-sage rounded-full flex items-center justify-center mx-auto mb-3">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+            <div class="w-14 h-14 rounded-full bg-brand-surface p-2 border-2 border-brand-sage shadow-soft mx-auto mb-3 flex items-center justify-center">
+              <img src="assets/images/logo.png" alt="Mother’s Comfy Official Seal" class="w-full h-full object-contain">
             </div>
             <h3 class="font-serif-luxury text-2xl font-bold text-brand-forest">Consultation Request Received!</h3>
             <p class="text-xs sm:text-sm text-brand-forest/75 mt-1">
@@ -820,14 +949,27 @@
         
         <!-- Company Identity -->
         <div class="md:col-span-5 space-y-3">
-          <div class="font-serif-luxury text-2xl font-bold text-brand-ivory">Mother’s Comfy</div>
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-brand-ivory p-1 shrink-0 border border-brand-ivory/25 shadow-sm flex items-center justify-center">
+              <img src="assets/images/logo.png" alt="Mother’s Comfy Logo" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <div class="font-serif-luxury text-2xl font-bold text-brand-ivory">Mother’s Comfy</div>
+              <div class="text-[10px] uppercase tracking-[0.2em] text-brand-beige font-semibold">Confinement Care</div>
+            </div>
+          </div>
           <p class="text-xs sm:text-sm text-brand-ivory/70 leading-relaxed max-w-sm">
             Professional in-home postpartum confinement care agency matching expecting mothers with experienced, health-screened confinement ladies.
           </p>
 
-          <div class="bg-brand-forest/80 border border-brand-ivory/15 rounded-xl p-3 text-xs text-brand-ivory/75 space-y-0.5">
+          <div class="bg-brand-forest/80 border border-brand-ivory/15 rounded-xl p-3 text-xs text-brand-ivory/75 space-y-1">
             <div class="font-semibold text-brand-beige">MOTHER COMFY ENTERPRISE</div>
-            <div class="font-mono text-[11px] text-brand-ivory/60">SSM Reg: 202303327124 (AS0473032-M)</div>
+            <div>
+              <a href="MC2026AS0473032_CERT.pdf.pdf" target="_blank" rel="noopener noreferrer" title="View Official SSM Certificate" class="font-mono text-[11px] text-brand-ivory/80 hover:text-brand-beige inline-flex items-center gap-1.5 transition-colors underline decoration-brand-ivory/30 underline-offset-2">
+                <span>SSM Reg: 202303327124 (AS0473032-M)</span>
+                <span class="text-emerald-400 font-sans text-[10px] font-semibold bg-emerald-950/70 px-1.5 py-0.2 rounded border border-emerald-500/30">Verified ✓</span>
+              </a>
+            </div>
             <div class="text-[11px] text-brand-ivory/50">Lot 1276 Kg Teras Jernang, Taman Alam Sentosa, 43650 Bandar Baru Bangi, Selangor</div>
           </div>
         </div>
@@ -879,6 +1021,16 @@
 
     </div>
   </footer>
+
+  <!-- ========================================================================= -->
+  <!-- COMMERCIAL FLOATING WHATSAPP CONCIERGE -->
+  <!-- ========================================================================= -->
+  <aside aria-label="WhatsApp Concierge" class="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-50 flex items-center gap-3">
+    <a href="https://wa.me/60195066738?text=Hello%20Mother%27s%20Comfy%2C%20I%20would%20like%20to%20enquire%20about%20your%20confinement%20lady%20care%20services." target="_blank" rel="noopener noreferrer" class="relative flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-2xl hover:bg-[#20ba5a] hover:scale-105 active:scale-95 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-emerald-300 group" aria-label="Chat with Care Concierge on WhatsApp (019-506 6738)">
+      <span class="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-30 pointer-events-none"></span>
+      <svg class="w-7 h-7 fill-current relative z-10" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    </a>
+  </aside>
 
   <!-- ========================================================================= -->
   <!-- CLIENT JAVASCRIPT -->
