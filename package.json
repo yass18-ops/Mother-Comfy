@@ -1,0 +1,23 @@
+{
+  "name": "mothers-comfy",
+  "version": "1.0.0",
+  "description": "Official landing page for **Mother’s Comfy** (Mother Comfy Enterprise), an in-home postpartum confinement care agency matching expecting families with experienced, health-screened confinement ladies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yass18-ops/Mother-Comfy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yass18-ops/Mother-Comfy/issues"
+  },
+  "homepage": "https://github.com/yass18-ops/Mother-Comfy#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
