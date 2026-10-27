@@ -4,6 +4,7 @@
   "description": "Mother's Comfy - International Confinement Care Website",
   "main": "index.html",
   "scripts": {
+    "build": "echo 'Static build ready'",
     "dev": "python3 -m http.server 8000",
     "lint": "echo 'Linting HTML...' && echo 'No linter configured for static HTML'",
     "test": "echo 'No tests configured'"
